@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Local / build virtualenvs created by the launchers
+.venv/
+.buildvenv/
+
+# PyInstaller build output
+build/
+dist/
+*.spec
+
+# macOS
+.DS_Store
+
+# NEVER commit credentials or local config
+.usagebar.json
+auth.json
+.credentials.json
+*.token
+*.key
