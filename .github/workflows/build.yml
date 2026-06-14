@@ -6,6 +6,9 @@ on:
     tags:
       - "v*"                # building a tag also publishes a Release
 
+permissions:
+  contents: write   # needed to create the Release and attach the .app
+
 jobs:
   build:
     runs-on: macos-latest
